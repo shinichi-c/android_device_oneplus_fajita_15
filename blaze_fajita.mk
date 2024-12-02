@@ -21,10 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common blaze stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_fajita
+# blaze stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := shinichi
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
+PRODUCT_NAME := blaze_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
