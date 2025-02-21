@@ -24,6 +24,14 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# axion
+AXION_CAMERA_REAR_INFO := 16,20
+AXION_CAMERA_FRONT_INFO := 16
+AXION_MAINTAINER := zamasu
+AXION_PROCESSOR := sdm845
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
 PRODUCT_NAME := lineage_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
