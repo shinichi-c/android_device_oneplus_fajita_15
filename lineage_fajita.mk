@@ -26,7 +26,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_USES_PICO_GAPPS := true
 BUILD_BCR := true
-TARGET_HAS_UDFPS := true
 PRODUCT_NAME := lineage_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
