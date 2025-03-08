@@ -24,7 +24,7 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
 BUILD_BCR := true
 TARGET_HAS_UDFPS := true
 PRODUCT_NAME := lineage_fajita
