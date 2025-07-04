@@ -25,6 +25,9 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_DISABLE_EPPE := true
+TARGET_USES_PICO_GAPPS := true
+EVO_BUILD_TYPE := Unofficial
+TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := lineage_fajita
 PRODUCT_DEVICE := fajita
