@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_DISABLE_EPPE := true
 WITH_BCR := true
-TARGET_USES_OMNI_GAPPS :=true
+WITH_GMS := true
 TARGET_OPTIMIZED_DEXOPT := true
 PRODUCT_NAME := lineage_fajita
 PRODUCT_DEVICE := fajita
