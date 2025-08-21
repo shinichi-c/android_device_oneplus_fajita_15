@@ -28,7 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_DISABLE_EPPE := true
 WITH_BCR := true
 WITH_GMS := true
-TARGET_OPTIMIZED_DEXOPT := true
+TARGET_OPTIMIZED_DEXOPT := false
 PRODUCT_NAME := lineage_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
